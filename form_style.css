@@ -1,0 +1,19 @@
+h1{
+    color: rgb(53, 28, 167);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    background-color:#b3c7e8;
+    margin-right:30%;
+    margin-left:30%;
+    text-align: center;
+}
+
+button{
+    background-color: cadetblue;
+    color: blueviolet;
+}

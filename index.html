@@ -1,89 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Financial</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form_style.css">
+        <title>Contact Us</title>
+    </head>
 
-    
+    <body>
+        <div class="content">
+            <fieldset>
+            <h1>Formulário de contato:</h1>
+            <a href="../index.html"><p>Página Inicial</p></a>
+            <form class="main_form">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="nome"><br>
 
-    <div class="socials">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
 
-        <img src="imgs/tel_logo.png" class="info_icons">
-       
+                <label for="tel">Telefone:</label><br>
+                <select id="tel" name="tel"><br>
+                    <option value="fix">Fixo</option>
+                    <option value="cel">Celular</option>
+                </select>
 
-        <img src="imgs/icon_logo.png" class="info_icons">
-      
+                <label for="name">Número:</label><br>
+                <input type="tel" id="tel" name="tel"><br><br>
 
-        <img src="imgs/clock_logo.png" class="info_icons">
-        
-
-        <a href="https://www.facebook.com/?locale=pt_BR"><img src="imgs/facebook_logo.png" class="socials_imgs"></a>
-       
-
-        <a href="https://www.instagram.com/"><img src="imgs/instagram_logo.png" class="socials_imgs"></a>
-        
-        
-        <a href="https://br.pinterest.com/"><img src="imgs/pínterest_logo.png" class="socials_imgs"></a>
-        <br>
-        <br>
-        <label id="socials_text1">+1 123 4556</label>
-        <label id="socials_text2">123, Minha Rua, Minha Cidade AB 123</label>
-        <label id="socials_text3">Aberto Seg-Sáb | 8:00-16:00</label>
-    </div>
-
-    <div class="heads">
-        <img src="imgs/financial_logo.png" id="logo">
-
-        <div class="text_headers">
-            <label class="text_headers">Home</label>
-            <label class="text_headers">About</label>
-            <label class="text_headers">Services</label>
-            <label class="text_headers">Pages</label>
-            <label class="text_headers">Blog</label>
-            <a href="form/index.html"><label class="text_headers">Contact Us</label></a>
+                <button type="submit" width="20%"><b>Enviar</b></button>
+            </form>
+            </fieldset>
         </div>
-    </div>
-
-    <div class="container">
-        
-    <img src="imgs/business_main.png" class="main_image" width="100%">
-    <div class="overlay">
-        <div class="center_title">Start on your Bussiness</div>
-        <div class="center_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quidem debitis exercitationem ut cumque veritatis ratione beatae! Illum, ea labore eveniet ducimus doloribus reiciendis voluptas tempora. Soluta distinctio iusto aspernatur?</div>
-        <button type="button" id="button1">Learn More</button>
-        <a href="form/index.html"><button type="button" id="button2">Contact Us</button></a>
-    </div>
-    </div>
-
-
-        <h1 class="main_intro">Welcome to Financial Company</h1>
-        <p class="main_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-
-        <div class="bottomimages">
-            <div class="botimg1">
-                <img src="imgs/business_frame1.png" class="block1">
-                <div class="overblock1">
-                    <h3>Build your team</h3>
-                </div>
-            </div>
-
-            <div class="botimg2">
-            <img src="imgs/business_frame2.png" class="block2">
-            <div class="overblock2">
-                <h3>Build your team</h3>
-            </div>
-            </div>
-
-            <div class="botimg3">
-            <img src="imgs/business_frame3.png" class="block3">
-            <div class="overblock3">
-                <h3>Build your team</h3>
-            </div>
-            </div>
-        </div>
-</body>
+    </body>
 </html>
