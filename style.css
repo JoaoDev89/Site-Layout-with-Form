@@ -1,0 +1,241 @@
+
+.socials {
+    height: 100px;
+    background-color: #000000;
+}
+
+#socials_text1 {
+    position:relative;
+    color: aliceblue;
+    margin-left: 150px;
+    margin-right: 5%;
+}
+#socials_text2 {
+    position:relative;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-right: 5%;
+}
+#socials_text3 {
+    position:relative;
+    color: aliceblue;
+    margin-left: 1px;
+    margin-right: 5%;
+}
+
+.info_icons {
+    position:relative;
+    float:left;
+    height: 20px;
+    margin-left: 180px;
+    margin-right: 5%;
+}
+
+.socials_imgs {
+    position:relative;
+    float:right;
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.container:hover .overlay {
+    opacity: 70%;
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+  }
+
+  .center_title {
+    position: absolute;
+    width: 100%;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.center_text {
+    position: absolute;
+    width: 70%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:65%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+  #button1 {
+    position:relative;
+    margin-top: 30%;
+    margin-left: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border-color:rgb(145, 146, 146);
+    background-color: rgb(160, 160, 160);
+    opacity: 100%;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #button2 {
+    position:relative;
+    margin-top: 30%;
+    margin-right: 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border-color:black;
+    background-color: black;
+    color:aliceblue;
+    opacity: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
+
+  .main_intro{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .main_text{
+    text-align: center;
+  }
+
+  .block1{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .botimg1{
+    position:relative;
+    width: 30%;
+    display:inline-block;
+  }  
+
+  .botimg1:hover .overblock1{
+    opacity: 70%;
+    text-align: center;
+    color: aliceblue;
+    height: 100%;
+  }
+
+  .overblock1{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+  .block2{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .botimg2{
+    position:relative;
+    width: 30%;
+    padding: 0%;
+    display:inline-block;
+  }  
+
+  .botimg2:hover .overblock2{
+    opacity: 70%;
+    text-align: center;
+    color: aliceblue;
+    height: 100%;
+  }
+
+  .overblock2{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color: #000000;
+  }
+
+  .block3{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .botimg3{
+    position:relative;
+    width: 30%;
+    display:inline-block;
+  }  
+
+  .botimg3:hover .overblock3{
+    height: 100%;
+    opacity: 70%;
+    text-align: center;
+    color: aliceblue;
+  }
+
+  .overblock3{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    
+  }
+
+#logo {
+    width: 400;
+    height: 200px;
+}
+
+.text_headers {
+    margin-bottom: 10%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main_image {
+  display: block;
+}
+
+.bottomimages {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
